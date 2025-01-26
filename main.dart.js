@@ -83709,9 +83709,9 @@ A.a7F.prototype={
 w3(a,b,c,d,e){return this.Xz(a,b,c,d,e)},
 Xz(a,b,c,a0,a1){var s=0,r=A.L(t.a),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$w3=A.M(function(a2,a3){if(a2===1)return A.I(a3,r)
-while(true)switch(s){case 0:e=p.a+"/orders?startDate="+a.ol().split("T")[0]+"&endDate="+b.ol().split("T")[0]
+while(true)switch(s){case 0:e=p.a+"/orders?startDate="+a.ol().split("T")[0]+"&endDate="+b.ol().split("T")[0]+"&branch="+c+"&cusNumber="+A.j(a0)+"&orderType="+a1
 s=3
-return A.Q(A.GB(A.d0(e+"&branch="+c+"&cusNumber="+A.j(a0)+"&orderType="+a1)),$async$w3)
+return A.Q(A.GB(A.d0(e)),$async$w3)
 case 3:d=a3
 A.fE(e)
 e=d.e
@@ -84313,7 +84313,7 @@ A.rX.prototype={
 F(a){return new A.ko(B.HM,"General Orders",this.c,!1,null)}}
 A.ko.prototype={
 a7(){var s="https://golaundry-backend.onrender.com",r=t.N,q=t.s
-return new A.DP(new A.a7F(s),new A.adS(s),new A.bI(Date.now(),0,!1).vG(),new A.bI(Date.now(),0,!1).vG(),A.b([],t.F6),A.y(r,t.Ct),A.y(r,r),A.b(["karups Nagar Branch","Bank Staff Colony Branch","Rajappa Nagar MC Road","RMS Colony","Plant"],q),A.b(["order in","order out"],q))}}
+return new A.DP(new A.a7F(s),new A.adS(s),new A.bI(Date.now(),0,!1).vG(),new A.bI(Date.now(),0,!1).vG(),A.b([],t.F6),A.y(r,t.Ct),A.y(r,r),A.b(["karups Nagar Branch","Bank Staff Colony Branch","Rajappa Nagar MC Road Branch","RMS Colony Branch","Plant"],q),A.b(["order in","order out"],q))}}
 A.DP.prototype={
 Bh(a,b){return this.apv(a,b)},
 apv(a,b){var s=0,r=A.L(t.H),q=1,p,o=this,n,m,l,k
