@@ -84200,7 +84200,7 @@ a7(){return new A.EO(new A.es(B.ck,$.a8()))}}
 A.EO.prototype={
 agl(){var s=this.d.a.a,r=new A.amG(this)
 if(s==="AdminBL:@2025"){$.arh="Admin"
-r.$0()}else if(s==="RecepBL@2025"){$.arh="Receptionist"
+r.$0()}else if(s==="1234"){$.arh="Receptionist"
 r.$0()}else new A.amH(this).$1("Invalid code. Please try again.")},
 F(a){var s=null
 return A.mH(A.lD(A.am("Enter Secret Code",s,s,s,s,s,s,s)),new A.aR(B.jw,A.bN(A.b([A.mW(!0,B.bh,!1,s,!0,B.w,s,A.qt(),this.d,s,s,s,s,s,2,A.hu(s,new A.en(4,B.cN,B.fy),s,s,s,s,s,s,!0,s,s,s,s,s,this.e,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,"Secret Code",!0,s,s,s,s,s,s,s,s,s,s,s,s,s),B.R,!0,s,!0,s,!1,s,B.bc,s,s,s,s,s,s,s,1,s,s,!0,"\u2022",s,s,s,s,s,!1,s,!1,s,!0,s,B.bP,s,s,B.b4,B.aY,s,s,s,s,s,s,s,B.a2,s,B.bX,s,s,s,s),A.bB(s,20,s),A.lR(A.am("Submit",s,s,s,s,s,s,s),this.gagk(),s)],t.p),B.u,B.bn,B.t,B.B),s),s)}}
